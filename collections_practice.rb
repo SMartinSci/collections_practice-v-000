@@ -14,6 +14,6 @@ end
 
 # calling the method length on every item yielded by sort_by - exactly like the first line. The prefix & operator converts an object (specifically a Proc object or any object that has a to_proc method, which symbol objects do) to a block.
   
-def swap_elements
+def swap_elements(array)
   
   
