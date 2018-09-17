@@ -26,7 +26,7 @@ def kesha_maker(array)
  array.each_with_object([]) { |i, e| e << i << "$" }
 end
 
-# array.map!.with_index { |letter, index| index % 5 == 0 ? letter.upcase : letter }
+# array.map!.with_index { |letter, index| index % 5 == 0 ? letter << "$" }
   
   
   
