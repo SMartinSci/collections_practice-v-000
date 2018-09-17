@@ -27,6 +27,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  dictionary.select { |word| word.start_with?('a') }
+end
   
   
