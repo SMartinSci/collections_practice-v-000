@@ -23,9 +23,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.insert(3, "$")
-end
-  
+ array.map!.with_index { |letter, index| index % 5 == 0 ? letter.upcase : letter }
   
   
   
