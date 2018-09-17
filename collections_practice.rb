@@ -3,7 +3,8 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort!
+  array.sort! do |f,b|
+  b<=>f
 end
 
   
